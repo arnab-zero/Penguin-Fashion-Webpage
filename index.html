@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion Webpage</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <style>
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,7 +25,7 @@
         <h1 class="font-semibold text-red-400 text-center text-6xl px-2 py-4 w-fit scroll-mb-5 border-red-800 border-2 rounded-md">
             Penguin Fashion</h1>
     </div> -->
-    <header>
+    <header class="mb-24">
         <section class="h-screen scroll-mx-0 scroll-mt-0 scroll-mb-24 px-32 pt-9 bg-yellow-50">
             <!----------------- Navigation bar -------------------->
             <div class="flex justify-between">
@@ -30,9 +42,40 @@
                 </div>
             </div>
             <!------------------ Website heading banner --------------------->
-
+            <div class="flex justify-between">
+                <!-- left side -->
+                <div class="w-1/2 flex flex-col justify-center">
+                    <h1 class="bebas-neue-regular text-7xl pb-2">
+                        <span class="text-amber-400 font-semibold uppercase">be the penguins</span>
+                        <p class="text-gray-600 font-semibold uppercase">of winter</p>
+                    </h1>
+                    <p class="text-gray-800 font-sm w-4/5 pb-5">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta atque minus, voluptatibus dolorum
+                        fugiat eius pariatur, quisquam nihil maiores quos corrupti rerum harum a optio quo, debitis id
+                        nesciunt neque.
+                    </p>
+                    <!-- buy now button -->
+                    <button
+                        class="flex justify-center p-4 max-w-40 rounded-md bg-gradient-to-b from-lime-500 to-lime-700 hover:">
+                        <img src="./assets/icons/shopping-cart 1.png" alt="shopping-cart-icon" class="w-7 h-7">
+                        <div class="text-base font-semibold text-white ml-2 capitalize">buy now</div>
+                    </button>
+                </div>
+                <!-- banner image -->
+                <div class="w-1/2">
+                    <img class="" src="./assets/images/model.png" alt="Fashion Model Image">
+                </div>
+            </div>
         </section>
     </header>
+
+    <!-- main section -->
+    <main>
+        <!-- women jacket section -->
+        <section>
+            <h1 class="bebas-neue-regular text-5xl text-black-400 uppercase">Woman jacket</h1>
+        </section>
+    </main>
 </body>
 
 </html>
